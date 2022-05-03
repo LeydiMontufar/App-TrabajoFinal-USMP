@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using App_TrabajoFinal_USMP.Models;
 
 namespace App_TrabajoFinal_USMP.Controllers
 {   
@@ -18,7 +19,7 @@ namespace App_TrabajoFinal_USMP.Controllers
         {
             return View();
         }
-        public IActionResult Create()
+        public IActionResult Create(Contacto obContacto)
         {
             return View("Index");
         }
