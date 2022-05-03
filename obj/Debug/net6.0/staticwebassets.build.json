@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xpGZdNo0CUtCLq2GLu4yWn3epeCKTaDBOHbno5ncV7c=",
+  "Hash": "Y8r3Rz5apnYpaFCz0v/jB/ZrwWIcg/8X7+O2ersKJNw=",
   "Source": "App-TrabajoFinal-USMP",
   "BasePath": "_content/App-TrabajoFinal-USMP",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\wanser64\\USMP-TRABAJO\\App-TrabajoFinal-USMP\\wwwroot\\Dockerfile",
+      "SourceId": "App-TrabajoFinal-USMP",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\wanser64\\USMP-TRABAJO\\App-TrabajoFinal-USMP\\wwwroot\\",
+      "BasePath": "_content/App-TrabajoFinal-USMP",
+      "RelativePath": "Dockerfile",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Dockerfile"
     },
     {
       "Identity": "E:\\wanser64\\USMP-TRABAJO\\App-TrabajoFinal-USMP\\wwwroot\\favicon.ico",
