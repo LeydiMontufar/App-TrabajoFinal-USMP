@@ -22,10 +22,26 @@ namespace App_TrabajoFinal_USMP.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(String? searchString)
         {
             var productos =  from o in _context.DataProductos select o;
+            //select *FON t_producto
+            if(!String.IsNullOrEmpty(searchString))
+            {
+                productos = productos.Where(s => s.Nombre.Contains(searchString) || s.Descripcion.Contains(searchString)); // algebra bool
+                //busca el nombre 'mmm'
+            }
+            
             return View(await productos.ToListAsync()); 
+        }
+        public async Task<IActionResult> Details(int? id)
+        {
+            Producto objProduct = await _context.DataProductos.FindAsync(id);
+            if(objProduct == null){
+                return NotFound();
+            }
+            return View(objProduct);
+
         }
 
     }
