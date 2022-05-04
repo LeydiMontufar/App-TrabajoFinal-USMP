@@ -13,4 +13,6 @@ public class ApplicationDbContext : IdentityDbContext
     }
       public DbSet<App_TrabajoFinal_USMP.Models.Contacto> DataContactos { get; set; }
 
+      public DbSet<App_TrabajoFinal_USMP.Models.Producto> DataProductos { get; set; }
+
 }
